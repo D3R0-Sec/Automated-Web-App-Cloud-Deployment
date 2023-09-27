@@ -10,6 +10,7 @@ Contained herein this readme are the steps taken and files used to setup the net
 A horizontally scalable web server was provisioned using these custom written ansible yaml playbooks:
 
 [DVWA Playbook](./DVWA_Playbook.yml)
+
 [Apache Playbook](./Apache_Playbook.yml)
 
 ![Reed_Williams_Cloud_Security (1)](https://github.com/rwilliams1026/Cloud-Network-Deployment/assets/123021812/7a2b5a5a-7152-4cfd-bd44-881da4b182fd)
@@ -29,6 +30,9 @@ Next a Network Security Group was setup to provide a firewall for incoming traff
 
 Using a "fan-in" topology pattern I deployed a central jumpbox to act as a gateway to our web server.
 
-Using an ansible docker image on the jumpbox to horizontally scale and provision the web server VMs through containerization.
+Using an ansible docker image on the jumpbox I provisioned the two VMs with an Apache Server and the DVWA respectively.
 
+A load balancer was added to ensure availability to our web app.
+
+![Screenshot 2023-09-26 200355](https://github.com/rwilliams1026/Cloud-Network-Deployment/assets/123021812/4666c860-040c-42e9-b94e-cc238c0c728b)
 
