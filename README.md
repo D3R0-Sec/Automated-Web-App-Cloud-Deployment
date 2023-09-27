@@ -7,9 +7,10 @@ The objective of this project was to use Azure Cloud Services to setup an entire
 
 Contained herein this readme are the steps taken and files used to setup the network displayed below.
 
-A horizontally scalable web server was provisioned using this custom written ansible playbooks in yaml:
+A horizontally scalable web server was provisioned using these custom written ansible yaml playbooks:
 
-
+[DVWA Playbook](./DVWA_Playbook.yml)
+[Apache Playbook](./Apache_Playbook.yml)
 
 ![Reed_Williams_Cloud_Security (1)](https://github.com/rwilliams1026/Cloud-Network-Deployment/assets/123021812/7a2b5a5a-7152-4cfd-bd44-881da4b182fd)
 
