@@ -1,4 +1,4 @@
-# Cloud-Network-Deployment
+# Automated Deployment of a Cloud Hosted Web App
 ## Overview
 
 A personal project to setup a cloud network infrastructure, with exposed DVWA (Damn Vulnerable Web App) running behind a load balancer, using Azure services.
